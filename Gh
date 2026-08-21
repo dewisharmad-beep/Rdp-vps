@@ -1,5 +1,6 @@
-146. "fix: resolve Unable to resume activity error"
-‎147. "fix: prevent activity resume crash"
-‎148. "fix: handle virtual camera activity lifecycle correctly"
-‎149. "fix: resolve activity initialization and resume failure"
-‎150. "fix: stabilize virtual camera activity after resume"
+151. "fix: resolve Unable to create service error"
+‎152. "fix: prevent VirtualCameraService creation crash"
+‎153. "fix: handle VirtualCameraService initialization failure"
+‎154. "fix: resolve Android service lifecycle initialization error"
+‎155. "fix: stabilize VirtualCameraService startup"
+‎

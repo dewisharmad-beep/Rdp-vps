@@ -1,6 +1,6 @@
-156. "fix: resolve foreground service startup error"
-‎157. "fix: call Service.startForeground() immediately"
-‎158. "fix: prevent Context.startForegroundService timeout"
-‎159. "fix: initialize foreground notification before camera startup"
-‎160. "fix: stabilize VirtualCameraService foreground lifecycle"
+161. "fix: resolve startForegroundService startup timeout"
+‎162. "fix: call startForeground immediately after service launch"
+‎163. "fix: prevent foreground service initialization crash"
+‎164. "fix: handle VirtualCameraService foreground startup correctly"
+‎165. "fix: stabilize foreground service lifecycle on Android"
 ‎

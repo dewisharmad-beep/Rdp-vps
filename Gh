@@ -1,6 +1,6 @@
-151. "fix: resolve Unable to create service error"
-‎152. "fix: prevent VirtualCameraService creation crash"
-‎153. "fix: handle VirtualCameraService initialization failure"
-‎154. "fix: resolve Android service lifecycle initialization error"
-‎155. "fix: stabilize VirtualCameraService startup"
+156. "fix: resolve foreground service startup error"
+‎157. "fix: call Service.startForeground() immediately"
+‎158. "fix: prevent Context.startForegroundService timeout"
+‎159. "fix: initialize foreground notification before camera startup"
+‎160. "fix: stabilize VirtualCameraService foreground lifecycle"
 ‎

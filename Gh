@@ -1,6 +1,5 @@
-161. "fix: resolve startForegroundService startup timeout"
-‎162. "fix: call startForeground immediately after service launch"
-‎163. "fix: prevent foreground service initialization crash"
-‎164. "fix: handle VirtualCameraService foreground startup correctly"
-‎165. "fix: stabilize foreground service lifecycle on Android"
-‎
+1. "fix: handle com.transsion.camera.overlay.production compatibility"
+2. "fix: improve Transsion camera overlay integration"
+3. "fix: resolve Transsion camera overlay package detection"
+4. "fix: prevent camera overlay service conflicts"
+5. "fix: improve virtual camera compatibility with Transsion devices"

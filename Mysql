@@ -1,0 +1,54 @@
+1. feat: initialize WSL2 server environment
+2. feat: install Nginx on WSL2
+3. feat: install MySQL on WSL2
+4. feat: configure Nginx web server
+5. feat: configure MySQL server
+6. feat: initialize MySQL database
+7. feat: configure root MySQL user
+8. feat: configure MySQL root authentication
+9. feat: configure database connection
+10. feat: configure database port
+
+11. feat: configure public hostname
+12. feat: configure public server port
+13. feat: add Nginx server block
+14. feat: configure Nginx hostname routing
+15. feat: configure Nginx upstream
+16. feat: connect Nginx to application server
+17. feat: configure Nginx proxy headers
+18. feat: configure public network listener
+19. feat: expose application through Nginx
+20. feat: configure WSL2 network forwarding
+
+21. feat: configure MySQL bind address
+22. feat: configure MySQL root database access
+23. feat: configure database connection environment
+24. feat: add MySQL initialization script
+25. feat: add database schema initialization
+26. feat: configure application database host
+27. feat: configure application database port
+28. feat: configure application database credentials
+29. feat: configure Nginx to MySQL application flow
+30. feat: configure WSL2 service startup
+
+31. fix: resolve Nginx startup issue
+32. fix: resolve MySQL startup issue
+33. fix: resolve Nginx upstream connection
+34. fix: resolve database connection failure
+35. fix: correct MySQL authentication settings
+36. fix: correct Nginx hostname configuration
+37. fix: correct public port configuration
+38. fix: correct MySQL bind address
+39. fix: resolve WSL2 network routing
+40. fix: resolve Nginx proxy configuration
+
+41. chore: enable Nginx service
+42. chore: enable MySQL service
+43. chore: update WSL2 packages
+44. chore: organize server configuration
+45. chore: organize database configuration
+46. test: verify Nginx public endpoint
+47. test: verify MySQL root connection
+48. test: verify database connectivity
+49. test: verify WSL2 network access
+50. docs: document WSL2 Nginx MySQL setup

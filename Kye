@@ -1,0 +1,80 @@
+feat: add user authentication
+feat: add OpenRouter API integration
+feat: add AI model selector
+feat: add agent orchestration mode
+feat: add code generation workflow
+feat: add autocomplete support
+feat: add custom agent personas
+feat: add task timeline
+feat: add diff-based editing
+feat: add browser tool integration
+feat: add terminal tool integration
+feat: add multilingual support
+feat: add custom workflow support
+feat: add project context detection
+feat: add automatic error detection
+feat: add automatic code fixing
+feat: add commit message generation
+feat: add model provider configuration
+feat: add workspace settings
+feat: add delegated subtasks
+fix: resolve authentication failure
+fix: handle OpenRouter API errors
+fix: prevent duplicate agent tasks
+fix: resolve autocomplete suggestions
+fix: fix incorrect code diff
+fix: handle failed tool execution
+fix: resolve terminal command errors
+fix: fix browser tool initialization
+fix: handle missing model configuration
+fix: resolve task timeline rendering
+fix: prevent invalid generated code
+fix: handle network timeout
+fix: resolve workspace detection issue
+fix: correct agent task ordering
+fix: handle malformed API responses
+fix: prevent repeated tool calls
+fix: fix model selection state
+fix: resolve configuration loading
+fix: handle unavailable models
+fix: correct generated commit messages
+refactor: simplify agent orchestration
+refactor: improve model provider architecture
+refactor: extract reusable agent utilities
+refactor: simplify API client
+refactor: reorganize agent commands
+refactor: improve task execution pipeline
+refactor: simplify configuration handling
+refactor: improve diff processing
+refactor: reorganize workspace services
+refactor: simplify autocomplete provider
+perf: reduce API request overhead
+perf: optimize autocomplete suggestions
+perf: improve agent response time
+perf: reduce unnecessary model calls
+perf: optimize task execution
+perf: improve diff rendering
+perf: optimize workspace indexing
+perf: reduce memory usage
+perf: improve streaming responses
+perf: optimize project context loading
+test: add authentication tests
+test: add OpenRouter integration tests
+test: add agent orchestration tests
+test: add autocomplete tests
+test: add workflow execution tests
+test: add model provider tests
+test: add terminal tool tests
+test: add browser tool tests
+test: add diff generation tests
+test: improve agent test coverage
+chore: update project dependencies
+chore: clean up unused code
+chore: update VS Code extension configuration
+chore: update build configuration
+docs: update installation instructions
+docs: document OpenRouter configuration
+docs: add agent workflow documentation
+ci: improve extension build workflow
+style: format source files
+build: update extension packaging configuration

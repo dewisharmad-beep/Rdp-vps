@@ -1,100 +1,50 @@
-1. "feat: add APK file support"
-2. "feat: add XAPK file support"
-3. "feat: add AAB file support"
-4. "feat: add AAR file support"
-5. "feat: add APKM file support"
-6. "feat: add APKS file support"
-7. "feat: add DEX file support"
-8. "feat: add multi-format file detection"
-9. "feat: add automatic file type detection"
-10. "feat: add drag and drop file upload"
-11. "feat: add APK to source code workflow"
-12. "feat: add XAPK extraction workflow"
-13. "feat: add AAB decompilation workflow"
-14. "feat: add AAR source extraction"
-15. "feat: add APKM package extraction"
-16. "feat: add APKS split APK extraction"
-17. "feat: add DEX decompilation workflow"
-18. "feat: add automatic decompiler selection"
-19. "feat: add All decompiler mode"
-20. "feat: add Auto decompiler mode"
-21. "feat: add decompiler selection interface"
-22. "feat: add multiple decompiler pipeline"
-23. "feat: add Java source generation"
-24. "feat: add Kotlin source generation"
-25. "feat: add Smali source generation"
-26. "feat: add AndroidManifest extraction"
-27. "feat: add resource extraction"
-28. "feat: add assets extraction"
-29. "feat: add native library extraction"
-30. "feat: add DEX file extraction"
-31. "feat: add source tree browser"
-32. "feat: add source code preview"
-33. "feat: add syntax highlighting"
-34. "feat: add programming language detection"
-35. "feat: add Auto programming language option"
-36. "feat: add All programming languages option"
-37. "feat: add anti-obfuscation processing"
-38. "feat: add obfuscation detection"
-39. "feat: add class name recovery"
-40. "feat: add method name analysis"
-41. "feat: add string analysis"
-42. "feat: add encrypted string detection"
-43. "feat: add source mapping analysis"
-44. "feat: add decompiler fallback support"
-45. "feat: add automatic decompiler fallback"
-46. "feat: add Fast MB processing mode"
-47. "feat: add Fast GB processing mode"
-48. "feat: add large file processing"
-49. "feat: add file size detection"
-50. "feat: add processing capacity indicator"
-51. "feat: add decompilation progress indicator"
-52. "feat: add processing status display"
-53. "feat: add job queue management"
-54. "feat: add background decompilation jobs"
-55. "feat: add processing error reporting"
-56. "feat: add source code ZIP export"
-57. "feat: add Download ZIP button"
-58. "feat: add downloadable decompiled project"
-59. "feat: add ZIP directory structure"
-60. "feat: add generated source archive"
-61. "feat: add web-based decompiler interface"
-62. "feat: add responsive web design"
-63. "feat: add mobile-friendly interface"
-64. "feat: add desktop web layout"
-65. "feat: add file upload dashboard"
-66. "feat: add decompiler settings panel"
-67. "feat: add file information panel"
-68. "feat: add source output panel"
-69. "feat: add processing history"
-70. "feat: add download history"
-71. "feat: add web API endpoint"
-72. "feat: add decompilation API"
-73. "feat: add upload API"
-74. "feat: add ZIP download API"
-75. "feat: add API error responses"
-76. "fix: handle invalid APK files"
-77. "fix: handle corrupted XAPK archives"
-78. "fix: handle invalid AAB packages"
-79. "fix: handle invalid AAR archives"
-80. "fix: handle malformed APKM files"
-81. "fix: handle broken APKS packages"
-82. "fix: handle invalid DEX files"
-83. "fix: fix automatic decompiler detection"
-84. "fix: fix All decompiler mode"
-85. "fix: fix source code generation"
-86. "fix: fix anti-obfuscation processing"
-87. "fix: fix large file processing"
-88. "fix: fix Fast GB processing"
-89. "fix: fix ZIP generation"
-90. "fix: fix source download"
-91. "refactor: simplify decompiler architecture"
-92. "refactor: improve file processing pipeline"
-93. "refactor: separate format handlers"
-94. "refactor: improve language detection"
-95. "refactor: improve anti-obfuscation pipeline"
-96. "perf: optimize large APK processing"
-97. "perf: reduce memory usage during decompilation"
-98. "perf: improve Fast MB and GB performance"
-99. "docs: document supported file formats"
-100. "chore: add Aptre project branding"
+1. Add anti-shutdown registry guard
+2. Block shutdown.exe via IFEO
+3. Delete shutdown.exe execution path
+4. Prevent remote shutdown requests
+5. Disable remote restart privilege
+6. Harden DLL injection via AppInit
+7. Block AppInit_DLLs loading
+8. Disable LoadAppInit_DLLs policy
+9. Anti remote shutdown registry key
+10. Anti remote restart registry key
+11. Block TCP port 135 inbound and outbound
+12. Block TCP port 139 inbound and outbound
+13. Block TCP port 445 inbound and outbound
+14. Block TCP port 3389 inbound and outbound
+15. Block TCP port 5985 inbound and outbound
+16. Block TCP port 5986 inbound and outbound
+17. Block TCP port 5900 inbound and outbound
+18. Block TCP port 5901 inbound and outbound
+19. Block UDP port 135 inbound and outbound
+20. Block UDP port 139 inbound and outbound
+21. Block UDP port 445 inbound and outbound
+22. Block UDP port 3389 inbound and outbound
+23. Block UDP port 5985 inbound and outbound
+24. Block UDP port 5986 inbound and outbound
+25. Block UDP port 5900 inbound and outbound
+26. Block UDP port 5901 inbound and outbound
+27. Block broker IP subnet 10.25.9.0/24
+28. Block broker IP subnet 10.151.0.0/16
+29. Block broker IP subnet 10.10.0.0/16
+30. Add firewall rule for broker IP block inbound
+31. Add firewall rule for broker IP block outbound
+32. Disable RemoteRegistry service
+33. Disable WinRM service
+34. Set NoShutdown registry value
+35. Set DisableRemoteShutdown registry value
+36. Set DisableRemoteReboot registry value
+37. Cancel pending shutdown loop
+38. Add background shutdown cancel process
+39. Restrict shutdown privilege to SYSTEM only
+40. Restrict remote shutdown privilege to SYSTEM only
+41. Block host_monitor.exe execution
+42. Block trace-agent.exe execution
+43. Block ipfsvc.exe execution
+44. Block realDeskservice.exe execution
+45. Block qyydn_Agent.exe execution
+46. Block elevation_Service.exe execution
+47. Block securityHealthService.exe execution
+48. Block vncserver.exe execution
+49. Block tvnserver.exe execution
+50. Add anti-DLL IFEO entries for GSDog and GSGuard

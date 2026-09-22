@@ -1,40 +1,153 @@
-feat: add user authentication
-feat: add OpenRouter API integration
-feat: add AI model selector
-feat: add agent orchestration mode
-feat: add code generation workflow
-feat: add autocomplete support
-feat: add custom agent personas
-feat: add task timeline
-feat: add diff-based editing
-feat: add browser tool integration
-feat: add terminal tool integration
-feat: add multilingual support
-feat: add custom workflow support
-feat: add project context detection
-feat: add automatic error detection
-feat: add automatic code fixing
-feat: add commit message generation
-feat: add model provider configuration
-feat: add workspace settings
-feat: add delegated subtasks
-fix: resolve authentication failure
-fix: handle OpenRouter API errors
-fix: prevent duplicate agent tasks
-fix: resolve autocomplete suggestions
-fix: fix incorrect code diff
-fix: handle failed tool execution
-fix: resolve terminal command errors
-fix: fix browser tool initialization
-fix: handle missing model configuration
-fix: resolve task timeline rendering
-fix: prevent invalid generated code
-fix: handle network timeout
-fix: resolve workspace detection issue
-fix: correct agent task ordering
-fix: handle malformed API responses
-fix: prevent repeated tool calls
-fix: fix model selection state
+1. feat: initialize Rust card security core
+2. feat: add card token generation
+3. feat: implement card security validation
+4. feat: add encrypted card data storage
+5. feat: implement card lifecycle management
+6. feat: add virtual card creation flow
+7. feat: add card status management
+8. feat: implement secure card authorization
+9. feat: add transaction signature validation
+10. feat: harden card security checks
+11. feat: initialize Go backend service
+12. feat: add backend API routing
+13. feat: add authentication middleware
+14. feat: implement account API
+15. feat: add virtual card API
+16. feat: add transaction API
+17. feat: add user profile API
+18. feat: add country metadata API
+19. feat: add cardholder profile API
+20. feat: add API request validation
+21. feat: initialize payment service
+22. feat: add payment authorization flow
+23. feat: add payment capture handling
+24. feat: add payment reversal handling
+25. feat: add payment settlement service
+26. feat: add payment status tracking
+27. feat: add payment event processing
+28. feat: add payment retry handling
+29. feat: improve payment service reliability
+30. feat: add payment service logging
+31. feat: initialize TypeScript web app
+32. feat: add web dashboard
+33. feat: add virtual card dashboard
+34. feat: add transaction history page
+35. feat: add card management page
+36. feat: add account settings page
+37. feat: add country selection interface
+38. feat: add cardholder name display
+39. feat: add admin dashboard
+40. feat: add admin transaction view
+41. feat: add admin card management
+42. feat: add admin user management
+43. feat: add admin audit logs
+44. feat: improve dashboard navigation
+45. feat: improve responsive web layout
+46. feat: add web authentication flow
+47. feat: add session management
+48. feat: add web error handling
+49. feat: improve dashboard performance
+50. feat: add web security headers
+51. feat: initialize Python fraud service
+52. feat: add transaction risk scoring
+53. feat: add fraud detection pipeline
+54. feat: add suspicious transaction detection
+55. feat: add anomaly detection model
+56. feat: add transaction feature extraction
+57. feat: add fraud model inference
+58. feat: add risk score API
+59. feat: add fraud event logging
+60. feat: improve fraud detection accuracy
+61. feat: add AI transaction analysis
+62. feat: add model inference monitoring
+63. feat: add fraud model versioning
+64. feat: add fraud rule evaluation
+65. feat: add transaction risk thresholds
+66. feat: add fraud service health check
+67. feat: initialize SQL ledger schema
+68. feat: add account ledger tables
+69. feat: add transaction ledger tables
+70. feat: add balance tracking
+71. feat: add ledger transaction entries
+72. feat: add double entry ledger support
+73. feat: add database transaction locking
+74. feat: add ledger reconciliation
+75. feat: add database indexes
+76. feat: add ledger audit history
+77. feat: add database migration system
+78. feat: add ledger consistency checks
+79. feat: improve database query performance
+80. feat: add database backup workflow
+81. fix: prevent duplicate card creation
+82. fix: validate transaction amounts
+83. fix: handle expired card requests
+84. fix: reject invalid card states
+85. fix: prevent duplicate payment events
+86. fix: fix transaction status synchronization
+87. fix: fix ledger balance calculation
+88. fix: fix payment retry handling
+89. fix: fix fraud score calculation
+90. fix: fix admin transaction filtering
+91. fix: fix session expiration handling
+92. fix: fix country metadata validation
+93. fix: fix cardholder name validation
+94. fix: fix API error responses
+95. fix: fix database transaction rollback
+96. fix: prevent unauthorized card access
+97. fix: fix audit log generation
+98. fix: fix dashboard transaction display
+99. fix: fix payment timeout handling
+100. fix: fix ledger reconciliation errors
+101. refactor: simplify card security validation
+102. refactor: improve backend API structure
+103. refactor: split payment service modules
+104. refactor: simplify fraud pipeline
+105. refactor: reorganize TypeScript components
+106. refactor: optimize ledger queries
+107. refactor: improve database repository layer
+108. refactor: centralize API error handling
+109. refactor: centralize card validation
+110. refactor: simplify transaction processing
+111. security: harden card token handling
+112. security: improve encryption key handling
+113. security: add API rate limiting
+114. security: strengthen authentication checks
+115. security: protect admin endpoints
+116. security: add request signature validation
+117. security: improve session security
+118. security: sanitize transaction input
+119. security: protect sensitive logs
+120. security: improve audit logging
+121. test: add Rust card security tests
+122. test: add Go API integration tests
+123. test: add payment service tests
+124. test: add TypeScript dashboard tests
+125. test: add Python fraud detection tests
+126. test: add ledger consistency tests
+127. test: add transaction authorization tests
+128. test: add card lifecycle tests
+129. test: add authentication tests
+130. test: add admin permission tests
+131. docs: document card security architecture
+132. docs: document backend API endpoints
+133. docs: document payment service flow
+134. docs: document fraud detection pipeline
+135. docs: document ledger architecture
+136. docs: document database schema
+137. docs: document admin dashboard
+138. docs: document authentication flow
+139. docs: document transaction lifecycle
+140. docs: document deployment architecture
+141. chore: update Rust dependencies
+142. chore: update Go dependencies
+143. chore: update Java dependencies
+144. chore: update Kotlin dependencies
+145. chore: update TypeScript dependencies
+146. chore: update Python dependencies
+147. chore: update SQL migrations
+148. chore: improve CI pipeline
+149. chore: improve production logging
+150. chore: prepare production releasefix: fix model selection state
 fix: resolve configuration loading
 fix: handle unavailable models
 fix: correct generated commit messages

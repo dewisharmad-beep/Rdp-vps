@@ -1,0 +1,34 @@
+‎51. feat: add anti-kill protection for svhost 52. feat: add anti-auto-kill svhost protection
+‎53. feat: add automatic svhost protection
+‎54. feat: add online AFK mode
+‎55. feat: add online Stardesk service mode
+‎56. fix: prevent automatic svhost termination
+‎57. fix: block unauthorized svhost kill attempts
+‎58. fix: remove auto-kill svhost logic
+‎59. fix: prevent unexpected svhost shutdown
+‎60. fix: improve offline protection
+‎61. remove: delete svhost auto-kill handler
+‎62. remove: delete automatic svhost termination
+‎63. remove: delete legacy svhost kill logic
+‎64. security: harden svhost process protection
+‎65. security: prevent unauthorized svhost termination
+‎66. security: add anti-kill safeguards
+‎67. security: improve offline protection
+‎68. security: protect online AFK sessions
+‎69. refactor: improve svhost protection system
+‎70. refactor: remove automatic kill workflow
+‎71. refactor: improve process monitoring
+‎72. update: add auto anti-protection checks
+‎73. update: add automatic process search
+‎74. update: improve online AFK mode
+‎75. update: improve GameViewer process detection
+‎76. update: improve GameViewerHealthd process detection
+‎77. update: improve GameViewerServer process detection
+‎78. update: improve Stardesk process detection
+‎79. feat: monitor GameViewer.exe online state
+‎80. feat: monitor GameViewerHealthd.exe online state
+‎81. feat: monitor GameViewerServer.exe online state
+‎82. feat: monitor Stardesk.exe online state
+‎83. feat: keep GameViewer services active in AFK mode
+‎84. hotfix: prevent automatic svhost kill
+‎85. patch: strengthen anti-kill and online AFK protection

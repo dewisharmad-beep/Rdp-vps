@@ -1,0 +1,26 @@
+
+1. feat: add anti-client protection v2
+2. feat: add anti-remote-shutdown v2
+3. fix: remove client-side shutdown handler
+4. fix: block local client shutdown
+5. fix: prevent remote shutdown requests
+6. remove: delete client shutdown functionality
+7. remove: delete legacy client module
+8. remove: delete unused network port
+9. remove: disable client shutdown endpoint
+10. security: harden client protection
+11. security: block unauthorized client shutdown
+12. security: protect against remote shutdown v2
+13. security: restrict client control commands
+14. security: prevent unauthorized client termination
+15. refactor: remove local shutdown logic
+16. refactor: improve anti-client protection
+17. refactor: isolate shutdown control handlers
+18. update: improve remote shutdown protection
+19. update: harden Stardesk.exe process handling
+20. update: align Stardesk.exe with GameViewer.exe
+21. fix: update GameViewerHealthd.exe handling
+22. fix: update GameViewerServer.exe handling
+23. chore: remove obsolete client components
+24. hotfix: block unauthorized remote shutdown
+25. patch: strengthen anti-remote-shutdown v2

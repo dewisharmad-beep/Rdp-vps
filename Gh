@@ -1,50 +1,25 @@
-1. Add anti-shutdown registry guard
-2. Block shutdown.exe via IFEO
-3. Delete shutdown.exe execution path
-4. Prevent remote shutdown requests
-5. Disable remote restart privilege
-6. Harden DLL injection via AppInit
-7. Block AppInit_DLLs loading
-8. Disable LoadAppInit_DLLs policy
-9. Anti remote shutdown registry key
-10. Anti remote restart registry key
-11. Block TCP port 135 inbound and outbound
-12. Block TCP port 139 inbound and outbound
-13. Block TCP port 445 inbound and outbound
-14. Block TCP port 3389 inbound and outbound
-15. Block TCP port 5985 inbound and outbound
-16. Block TCP port 5986 inbound and outbound
-17. Block TCP port 5900 inbound and outbound
-18. Block TCP port 5901 inbound and outbound
-19. Block UDP port 135 inbound and outbound
-20. Block UDP port 139 inbound and outbound
-21. Block UDP port 445 inbound and outbound
-22. Block UDP port 3389 inbound and outbound
-23. Block UDP port 5985 inbound and outbound
-24. Block UDP port 5986 inbound and outbound
-25. Block UDP port 5900 inbound and outbound
-26. Block UDP port 5901 inbound and outbound
-27. Block broker IP subnet 10.25.9.0/24
-28. Block broker IP subnet 10.151.0.0/16
-29. Block broker IP subnet 10.10.0.0/16
-30. Add firewall rule for broker IP block inbound
-31. Add firewall rule for broker IP block outbound
-32. Disable RemoteRegistry service
-33. Disable WinRM service
-34. Set NoShutdown registry value
-35. Set DisableRemoteShutdown registry value
-36. Set DisableRemoteReboot registry value
-37. Cancel pending shutdown loop
-38. Add background shutdown cancel process
-39. Restrict shutdown privilege to SYSTEM only
-40. Restrict remote shutdown privilege to SYSTEM only
-41. Block host_monitor.exe execution
-42. Block trace-agent.exe execution
-43. Block ipfsvc.exe execution
-44. Block realDeskservice.exe execution
-45. Block qyydn_Agent.exe execution
-46. Block elevation_Service.exe execution
-47. Block securityHealthService.exe execution
-48. Block vncserver.exe execution
-49. Block tvnserver.exe execution
-50. Add anti-DLL IFEO entries for GSDog and GSGuard
+1. feat: add anti-shutdown protection
+2. feat: block remote shutdown commands
+3. feat: prevent unauthorized system shutdown
+4. feat: disable shutdown trigger
+5. fix: prevent unexpected shutdown
+6. fix: block remote shutdown requests
+7.fix: remove shutdown command handler
+8. fix: disable unauthorized shutdown access
+9. refactor: improve shutdown protection
+10. refactor: harden remote shutdown controls
+11. security: add shutdown access protection
+12. security: prevent remote shutdown abuse
+13. security: restrict shutdown permissions
+14. security: block unauthorized shutdown attempts
+15. chore: remove legacy shutdown functionality
+16. chore: disable remote shutdown feature
+17. update: strengthen anti-shutdown system
+18. update: improve shutdown command filtering
+19. remove: delete shutdown handler
+20. remove: delete remote shutdown support
+21. remove: disable shutdown endpoint
+22. hotfix: prevent remote system shutdown
+23. hotfix: block unauthorized shutdown command
+24. patch: disable forced shutdown requests
+25. patch: add protection against remote shutdown

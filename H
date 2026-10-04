@@ -1,34 +1,36 @@
-‎51. feat: add anti-kill protection for svhost 52. feat: add anti-auto-kill svhost protection
-‎53. feat: add automatic svhost protection
-‎54. feat: add online AFK mode
-‎55. feat: add online Stardesk service mode
-‎56. fix: prevent automatic svhost termination
-‎57. fix: block unauthorized svhost kill attempts
-‎58. fix: remove auto-kill svhost logic
-‎59. fix: prevent unexpected svhost shutdown
-‎60. fix: improve offline protection
-‎61. remove: delete svhost auto-kill handler
-‎62. remove: delete automatic svhost termination
-‎63. remove: delete legacy svhost kill logic
-‎64. security: harden svhost process protection
-‎65. security: prevent unauthorized svhost termination
-‎66. security: add anti-kill safeguards
-‎67. security: improve offline protection
-‎68. security: protect online AFK sessions
-‎69. refactor: improve svhost protection system
-‎70. refactor: remove automatic kill workflow
-‎71. refactor: improve process monitoring
-‎72. update: add auto anti-protection checks
-‎73. update: add automatic process search
-‎74. update: improve online AFK mode
-‎75. update: improve GameViewer process detection
-‎76. update: improve GameViewerHealthd process detection
-‎77. update: improve GameViewerServer process detection
-‎78. update: improve Stardesk process detection
-‎79. feat: monitor GameViewer.exe online state
-‎80. feat: monitor GameViewerHealthd.exe online state
-‎81. feat: monitor GameViewerServer.exe online state
-‎82. feat: monitor Stardesk.exe online state
-‎83. feat: keep GameViewer services active in AFK mode
-‎84. hotfix: prevent automatic svhost kill
-‎85. patch: strengthen anti-kill and online AFK protection
+
+1. feat: add AFK mode to Stardesk.exe
+2. feat: add idle mode support
+3. feat: add anti-shutdown protection
+4. feat: add non-shutdown runtime mode
+5. feat: add non-DLL protection mode
+6. feat: add port monitoring
+7. feat: add anti-port monitoring
+8. feat: add remote shutdown process detection
+9. feat: add automatic shutdown-process search
+10. feat: add process protection manager
+11. feat: add automatic process scanning
+12. feat: add AFK background service
+13. feat: add Stardesk AFK controller
+14. feat: add idle-state detection
+15. feat: add automatic idle activation
+16. feat: add remote process discovery
+17. feat: add suspicious shutdown process detection
+18. feat: add protected process tracking
+19. feat: add automatic process termination
+20. feat: add configurable process allowlist
+21. feat: add configurable process blocklist
+22. feat: add port-state monitoring
+23. feat: add automatic port conflict detection
+24. feat: add non-port runtime mode
+25. feat: add anti-port runtime protection
+26. feat: add AFK process supervisor
+27. feat: add idle-mode process supervisor
+28. fix: prevent unwanted shutdown process termination
+29. fix: improve remote process detection
+30. fix: prevent duplicate process scans
+31. refactor: centralize shutdown and port monitoring
+32. refactor: improve AFK process management
+33. perf: optimize background process scanning
+34. chore: improve Stardesk AFK logging
+35. feat: integrate AFK, idle, process, and port protection

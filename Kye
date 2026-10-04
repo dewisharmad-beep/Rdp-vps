@@ -1,193 +1,161 @@
-1. feat: initialize Rust card security core
-2. feat: add card token generation
-3. feat: implement card security validation
-4. feat: add encrypted card data storage
-5. feat: implement card lifecycle management
-6. feat: add virtual card creation flow
-7. feat: add card status management
-8. feat: implement secure card authorization
-9. feat: add transaction signature validation
-10. feat: harden card security checks
-11. feat: initialize Go backend service
-12. feat: add backend API routing
-13. feat: add authentication middleware
-14. feat: implement account API
-15. feat: add virtual card API
-16. feat: add transaction API
-17. feat: add user profile API
-18. feat: add country metadata API
-19. feat: add cardholder profile API
-20. feat: add API request validation
-21. feat: initialize payment service
-22. feat: add payment authorization flow
-23. feat: add payment capture handling
-24. feat: add payment reversal handling
-25. feat: add payment settlement service
-26. feat: add payment status tracking
-27. feat: add payment event processing
-28. feat: add payment retry handling
-29. feat: improve payment service reliability
-30. feat: add payment service logging
-31. feat: initialize TypeScript web app
-32. feat: add web dashboard
-33. feat: add virtual card dashboard
-34. feat: add transaction history page
-35. feat: add card management page
-36. feat: add account settings page
-37. feat: add country selection interface
-38. feat: add cardholder name display
-39. feat: add admin dashboard
-40. feat: add admin transaction view
-41. feat: add admin card management
-42. feat: add admin user management
-43. feat: add admin audit logs
-44. feat: improve dashboard navigation
-45. feat: improve responsive web layout
-46. feat: add web authentication flow
-47. feat: add session management
-48. feat: add web error handling
-49. feat: improve dashboard performance
-50. feat: add web security headers
-51. feat: initialize Python fraud service
-52. feat: add transaction risk scoring
-53. feat: add fraud detection pipeline
-54. feat: add suspicious transaction detection
-55. feat: add anomaly detection model
-56. feat: add transaction feature extraction
-57. feat: add fraud model inference
-58. feat: add risk score API
-59. feat: add fraud event logging
-60. feat: improve fraud detection accuracy
-61. feat: add AI transaction analysis
-62. feat: add model inference monitoring
-63. feat: add fraud model versioning
-64. feat: add fraud rule evaluation
-65. feat: add transaction risk thresholds
-66. feat: add fraud service health check
-67. feat: initialize SQL ledger schema
-68. feat: add account ledger tables
-69. feat: add transaction ledger tables
-70. feat: add balance tracking
-71. feat: add ledger transaction entries
-72. feat: add double entry ledger support
-73. feat: add database transaction locking
-74. feat: add ledger reconciliation
-75. feat: add database indexes
-76. feat: add ledger audit history
-77. feat: add database migration system
-78. feat: add ledger consistency checks
-79. feat: improve database query performance
-80. feat: add database backup workflow
-81. fix: prevent duplicate card creation
-82. fix: validate transaction amounts
-83. fix: handle expired card requests
-84. fix: reject invalid card states
-85. fix: prevent duplicate payment events
-86. fix: fix transaction status synchronization
-87. fix: fix ledger balance calculation
-88. fix: fix payment retry handling
-89. fix: fix fraud score calculation
-90. fix: fix admin transaction filtering
-91. fix: fix session expiration handling
-92. fix: fix country metadata validation
-93. fix: fix cardholder name validation
-94. fix: fix API error responses
-95. fix: fix database transaction rollback
-96. fix: prevent unauthorized card access
-97. fix: fix audit log generation
-98. fix: fix dashboard transaction display
-99. fix: fix payment timeout handling
-100. fix: fix ledger reconciliation errors
-101. refactor: simplify card security validation
-102. refactor: improve backend API structure
-103. refactor: split payment service modules
-104. refactor: simplify fraud pipeline
-105. refactor: reorganize TypeScript components
-106. refactor: optimize ledger queries
-107. refactor: improve database repository layer
-108. refactor: centralize API error handling
-109. refactor: centralize card validation
-110. refactor: simplify transaction processing
-111. security: harden card token handling
-112. security: improve encryption key handling
-113. security: add API rate limiting
-114. security: strengthen authentication checks
-115. security: protect admin endpoints
-116. security: add request signature validation
-117. security: improve session security
-118. security: sanitize transaction input
-119. security: protect sensitive logs
-120. security: improve audit logging
-121. test: add Rust card security tests
-122. test: add Go API integration tests
-123. test: add payment service tests
-124. test: add TypeScript dashboard tests
-125. test: add Python fraud detection tests
-126. test: add ledger consistency tests
-127. test: add transaction authorization tests
-128. test: add card lifecycle tests
-129. test: add authentication tests
-130. test: add admin permission tests
-131. docs: document card security architecture
-132. docs: document backend API endpoints
-133. docs: document payment service flow
-134. docs: document fraud detection pipeline
-135. docs: document ledger architecture
-136. docs: document database schema
-137. docs: document admin dashboard
-138. docs: document authentication flow
-139. docs: document transaction lifecycle
-140. docs: document deployment architecture
-141. chore: update Rust dependencies
-142. chore: update Go dependencies
-143. chore: update Java dependencies
-144. chore: update Kotlin dependencies
-145. chore: update TypeScript dependencies
-146. chore: update Python dependencies
-147. chore: update SQL migrations
-148. chore: improve CI pipeline
-149. chore: improve production logging
-150. chore: prepare production releasefix: fix model selection state
-fix: resolve configuration loading
-fix: handle unavailable models
-fix: correct generated commit messages
-refactor: simplify agent orchestration
-refactor: improve model provider architecture
-refactor: extract reusable agent utilities
-refactor: simplify API client
-refactor: reorganize agent commands
-refactor: improve task execution pipeline
-refactor: simplify configuration handling
-refactor: improve diff processing
-refactor: reorganize workspace services
-refactor: simplify autocomplete provider
-perf: reduce API request overhead
-perf: optimize autocomplete suggestions
-perf: improve agent response time
-perf: reduce unnecessary model calls
-perf: optimize task execution
-perf: improve diff rendering
-perf: optimize workspace indexing
-perf: reduce memory usage
-perf: improve streaming responses
-perf: optimize project context loading
-test: add authentication tests
-test: add OpenRouter integration tests
-test: add agent orchestration tests
-test: add autocomplete tests
-test: add workflow execution tests
-test: add model provider tests
-test: add terminal tool tests
-test: add browser tool tests
-test: add diff generation tests
-test: improve agent test coverage
-chore: update project dependencies
-chore: clean up unused code
-chore: update VS Code extension configuration
-chore: update build configuration
-docs: update installation instructions
-docs: document OpenRouter configuration
-docs: add agent workflow documentation
-ci: improve extension build workflow
-style: format source files
-build: update extension packaging configuration
+feat(rust): initialize secure card core
+feat(rust): add card token generation
+feat(rust): implement secure token validation
+feat(rust): add encrypted card credential storage
+feat(rust): implement card lifecycle states
+feat(rust): add card fingerprint generation
+feat(rust): implement secure random identifiers
+feat(rust): add cryptographic key abstraction
+feat(rust): implement sensitive-data zeroization
+feat(rust): add card security validation
+feat(rust): implement transaction signature checks
+feat(rust): add security event hashing
+feat(rust): implement secure authorization context
+feat(rust): add tamper detection
+feat(rust): harden card-core memory handling
+
+feat(go): initialize Aptre card API
+feat(go): add virtual card endpoints
+feat(go): add card lifecycle API
+feat(go): add authorization API
+feat(go): add transaction API
+feat(go): add spending-limit API
+feat(go): add merchant-control API
+feat(go): add subscription-control API
+feat(go): add freeze-unfreeze API
+feat(go): add refund API
+feat(go): add chargeback API
+feat(go): add reconciliation API
+feat(go): add audit API
+feat(go): add administrative API
+feat(go): add API request validation
+feat(go): add API authentication
+feat(go): add API authorization middleware
+feat(go): add idempotency handling
+feat(go): add transaction request tracing
+feat(go): add structured API errors
+
+feat(payment): initialize payment service
+feat(payment): add authorization processing
+feat(payment): add transaction routing
+feat(payment): add payment state machine
+feat(payment): add authorization response handling
+feat(payment): add capture processing
+feat(payment): add reversal processing
+feat(payment): add refund processing
+feat(payment): add settlement processing
+feat(payment): add reconciliation processing
+feat(payment): add payment idempotency
+feat(payment): add transaction reference handling
+feat(payment): add payment-service audit events
+feat(payment): add timeout handling
+feat(payment): add payment failure recovery
+
+feat(php): initialize database.php layer
+feat(php): add database connection abstraction
+feat(php): add transaction repository
+feat(php): add card repository
+feat(php): add account repository
+feat(php): add ledger repository
+feat(php): add double-entry ledger
+feat(php): add debit ledger entries
+feat(php): add credit ledger entries
+feat(php): add immutable ledger records
+feat(php): add ledger balance calculation
+feat(php): add transaction journal
+feat(php): add refund journal entries
+feat(php): add settlement journal entries
+feat(php): add reconciliation records
+feat(php): add audit records
+feat(php): add database transaction boundaries
+feat(php): add ledger consistency checks
+feat(php): add database.php query abstraction
+feat(php): harden database access layer
+
+feat(cards): add virtual card creation
+feat(cards): add virtual card activation
+feat(cards): add virtual card expiration
+feat(cards): add virtual card cancellation
+feat(cards): add card status management
+feat(cards): add disposable card support
+feat(cards): add one-time card lifecycle
+feat(cards): add virtual card metadata
+feat(cards): add card ownership validation
+feat(cards): add card limits
+
+feat(tokens): add card tokenization
+feat(tokens): add token lifecycle management
+feat(tokens): add token revocation
+feat(tokens): add token rotation
+feat(auth): add authorization engine
+feat(auth): add spending-limit evaluation
+feat(auth): add merchant restriction evaluation
+feat(auth): add subscription restriction evaluation
+feat(auth): add card-status validation
+feat(auth): add authorization decision logging
+
+feat(risk): initialize Python risk engine
+feat(risk): add transaction risk scoring
+feat(risk): add velocity checks
+feat(risk): add transaction anomaly detection
+feat(risk): add merchant risk evaluation
+feat(risk): add geographic risk signals
+feat(risk): add behavioral risk signals
+feat(risk): add configurable risk rules
+feat(risk): add fraud-event pipeline
+feat(risk): add risk decision audit trail
+
+feat(3ds): initialize 3-D Secure integration
+feat(3ds): add authentication request flow
+feat(3ds): add authentication response handling
+feat(3ds): add challenge-state tracking
+feat(3ds): add authentication result validation
+feat(security): add OTP verification service
+feat(security): add biometric-authentication integration
+feat(security): add session security controls
+feat(security): add encryption key rotation
+feat(security): add security-event auditing
+
+feat(controls): add card freeze
+feat(controls): add card unfreeze
+feat(controls): add merchant controls
+feat(controls): add merchant-category controls
+feat(controls): add subscription controls
+feat(controls): add transaction limits
+feat(controls): add daily spending limits
+feat(controls): add per-transaction limits
+feat(controls): add temporary card restrictions
+feat(controls): add control-change auditing
+
+feat(refunds): add refund workflow
+feat(refunds): validate refund transactions
+feat(refunds): add partial refund support
+feat(chargebacks): add chargeback workflow
+feat(chargebacks): add dispute lifecycle
+feat(chargebacks): add dispute evidence records
+feat(settlement): add settlement batches
+feat(settlement): add settlement reconciliation
+feat(settlement): add settlement discrepancy detection
+feat(settlement): add reconciliation reporting
+
+feat(web): initialize Aptre card dashboard
+feat(web): add virtual card management UI
+feat(web): add transaction dashboard
+feat(web): add spending-limit controls
+feat(web): add freeze-unfreeze controls
+feat(web): add merchant controls
+feat(web): add subscription controls
+feat(web): add fraud-risk dashboard
+feat(web): add transaction search
+feat(web): add audit-log viewer
+
+feat(sdk): initialize Aptre card SDK
+feat(sdk): add card management client
+feat(sdk): add transaction client
+feat(sdk): add authorization client
+feat(sdk): add webhook verification
+feat(monitoring): add transaction metrics
+feat(monitoring): add authorization metrics
+feat(monitoring): add fraud-engine monitoring
+feat(monitoring): add payment-service health checks
+chore(vercel): configure Aptre web deployment
